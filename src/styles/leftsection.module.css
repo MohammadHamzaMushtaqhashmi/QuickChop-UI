@@ -1,0 +1,18 @@
+.sidebar {
+    display: flex;
+    align-items: center;
+   /* height: 400px;*/
+   /* justify-content: center;*/
+}
+.button{
+    border-radius: 10px;
+    border: 0;
+    padding: 0 15px;
+    font-size: 12px;
+    font-family: 'bpg_arialregular';
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+

@@ -1,0 +1,20 @@
+.row {
+  border-radius: 10px;
+  border: 0;
+  padding: 0 15px;
+  font-size: 12px;
+  font-family: 'bpg_arialregular';
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-primary {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border: 1px solid #fff;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  background-color: #23757a;
+  border-color: #23757a;
+}

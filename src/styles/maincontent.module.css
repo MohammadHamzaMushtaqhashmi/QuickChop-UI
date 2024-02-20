@@ -1,0 +1,34 @@
+@keyframes rotation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  position: relative;
+  width: 100%; 
+  height: 100%; 
+  overflow: hidden;
+}
+
+.rays {
+  animation: rotation 5s linear infinite; 
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 200%; 
+  height: 200%; 
+  z-index: -1; 
+  background: url('/public/rays.svg') 0 0 repeat;
+  background-size: cover;
+  background-position: center;
+  transform-origin: center; 
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  position: relative;
+}
+.content h1,h2 {
+  text-align: center;
+  justify-content: center;
+}
