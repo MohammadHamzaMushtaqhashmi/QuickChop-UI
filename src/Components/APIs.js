@@ -1,3 +1,4 @@
+{/*
 export async function register(data) {
     const response = await fetch('http://localhost:3000/users/register', {
         method: 'POST',
@@ -99,3 +100,4 @@ export async function sendBet(token, betDetails){
     });
     return response.json();
 }
+*/}
