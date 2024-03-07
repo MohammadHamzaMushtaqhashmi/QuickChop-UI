@@ -16,16 +16,6 @@ function App() {
   const [selectedButton, setSelectedButton] = useState('all');
   const [isSecondOptionVisible, setIsSecondOptionVisible] = useState(true)
   const [token, setToken] = useState(null)
-  const [socket, setsocket] = useState();
-  const [showtoast, setshowtoast] = useState(false);
-  const [LiveBettingTable, setLiveBettingTable] = useState([]);
-  const [RoundIdList, setRoundIdList] = useState([]);
-  const [onlinePlayers, setonlinePlayers] = useState([]);
-  const [chat, setchat] = useState([]);
-  const [showprofittoast, setshowprofittoast] = useState(false);
-  const [BustedValue, setBustedValue] = useState('');
-  const [Logs, setLogs] = useState([]);
-
   const handleButtonClick = (button) => {
     setSelectedButton(button)
   }

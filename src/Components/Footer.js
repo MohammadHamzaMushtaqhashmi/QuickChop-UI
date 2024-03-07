@@ -24,7 +24,7 @@ function Foooter(){
 
     return(
         <div style={footerStyle}>
-            This Game is <img src="provabyfair.svg"/> <a style={linkStyle}>Provably Fair</a> .
+            This Game is <img src="provabyfair.svg" alt="provabyfair.svg"/> Provably Fair .
         </div>
     )
 } 
