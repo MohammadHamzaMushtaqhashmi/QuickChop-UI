@@ -53,7 +53,7 @@ function SignUp({onSignInClick, onSignUp}) {
         </Button>
 
         <p style={{ textAlign: 'center', paddingTop: '20px' }}>By using this platform I attest that I am at least 18 years old and have read and agree to the <a href="#terms">Terms of Service</a></p>
-        <p style={{ textAlign: 'center', paddingTop: '10px' }}>Already had an account? <a href="#" onClick={onSignInClick} >Sign In now</a></p>
+        <p style={{ textAlign: 'center', paddingTop: '10px' }}>Already had an account? <button onClick={onSignInClick} >Sign In now</button></p>
       </Form>
     </div>
   );

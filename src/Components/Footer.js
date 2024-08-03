@@ -15,13 +15,6 @@ function Foooter(){
         left: '10px'
     };
 
-    const linkStyle = {
-        fontSize: '12px',
-        color: '#bbbfc5',
-        fontFamily: 'Roboto, sans-serif',
-        fontWeight: '500'
-    };
-
     return(
         <div style={footerStyle}>
             This Game is <img src="provabyfair.svg" alt="provabyfair.svg"/> Provably Fair .

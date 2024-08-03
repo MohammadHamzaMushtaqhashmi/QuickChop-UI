@@ -37,7 +37,7 @@ function SignIn({onSignUpClick, onForgotPasswordClick, onSignIn}) {
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" name='password' placeholder="Password" />
          <div style={{ textAlign: 'right', padding: '10px' }}> <Form.Text className="text-muted" >
-          <a href="#" onClick={onForgotPasswordClick} >FORGOT PASSWORD</a>
+          <button onClick={onForgotPasswordClick} >FORGOT PASSWORD</button>
         </Form.Text>
         </div>
         </Form.Group>

@@ -9,7 +9,6 @@ import ForgotPassword from './ForgetPassoword';
 import Chat from './Chat';
 import Cashier from './Cashier';
 import Modal from 'react-bootstrap/Modal';
-import { faLadderWater } from '@fortawesome/free-solid-svg-icons';
 
 function MyNavbar() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

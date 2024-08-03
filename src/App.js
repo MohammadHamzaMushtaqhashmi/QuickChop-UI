@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import MyNavbar from './Components/Navbar';
 import LeftSection from './Components/LeftSection';
 import AllBetsInterface from './Components/AllBetsInterface';
@@ -15,7 +15,7 @@ import './App.css';
 function App() {
   const [selectedButton, setSelectedButton] = useState('all');
   const [isSecondOptionVisible, setIsSecondOptionVisible] = useState(true)
-  const [token, setToken] = useState(null)
+  const [token] = useState(null)
   const handleButtonClick = (button) => {
     setSelectedButton(button)
   }
